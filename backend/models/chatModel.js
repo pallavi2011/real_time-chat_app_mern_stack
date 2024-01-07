@@ -27,6 +27,6 @@ const chatSchema = mongoose.Schema({
     timeStamps : true,
 })
 
-const Chat = mongoose.Model("Chat", chatSchema);
+const Chat = mongoose.model("Chat", chatSchema);
 
 module.exports = Chat;
